@@ -4049,7 +4049,7 @@ hash
 
 参数：
 	- **input** (Variable) - 输入变量是一个 one-hot 词。输入变量的维数必须是2。
-	- **hash_size** (int) - 哈希算法的空间大小。输出值将保持在 :math:`[0,hash\_size-1]` 范围内。
+	- **hash_size** (int) - 哈希算法的空间大小。输出值将保持在 :math:`[0,hash_size-1]` 范围内。
 	- **num_hash** (int) - 哈希次数，默认为1。
 	- **name** (str, default None) - 该层的名称
 
